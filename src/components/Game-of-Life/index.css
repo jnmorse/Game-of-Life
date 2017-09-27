@@ -1,0 +1,8 @@
+#board {
+  margin: 10px;
+}
+
+#board svg {
+  margin: 0 auto;
+  display: block;
+}
