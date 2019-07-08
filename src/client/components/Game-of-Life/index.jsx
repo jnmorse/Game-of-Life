@@ -7,6 +7,7 @@ import * as actions from '../../actions';
 import './index.css';
 
 class GameOfLife extends Component {
+  // eslint-disable-next-line react/static-property-placement
   static propTypes = {
     cols: PropTypes.number.isRequired,
     rows: PropTypes.number.isRequired,

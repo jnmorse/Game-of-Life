@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "@babel/react",
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "browsers": ">0.2%, not dead"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "react-hot-loader/babel"
+  ]
+}
